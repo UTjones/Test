@@ -8,5 +8,8 @@ def multiply(x, y):
     pass
 
 def divide(x, y):
-    pass
+    if y == 0:
+        return "error"
+    else:
+        return x/y
 
